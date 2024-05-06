@@ -27,7 +27,16 @@ html, body{
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
-  width: 11%;
+  width: 15%;
+}
+
+.flexbox_img{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 20%;
 }
 
 .logo3{
@@ -155,11 +164,15 @@ html, body{
 .main-header{
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+  /* width: auto; */
+  height: 20%; 
   width: 100%;
+  height: auto;
   margin-bottom: 0%;
-  margin-top: -7.5%;
+  margin-top: -8%;
   }
 
 
@@ -302,7 +315,7 @@ padding: 0%;
 
 
   .title{
-    font-size: 200%;
+    font-size: 205%;
     font-weight: 600; 
     text-align: center;
     /* font-family: "Cinzel"; */
@@ -314,26 +327,26 @@ padding: 0%;
     /* font-family: 'Caprasimo', cursive; */
     /* font-family: 'Mate SC', serif; */
     margin-top: 0%;
-    margin-bottom: 1.25%;
+    margin-bottom: -0.5%;
     padding: 0%;
     /* color:  rgb(0, 46, 145); */
-    color: rgba(27, 187, 255, 0.918); 
+    color:  rgb(26,157,217); 
     width: 100%;
     line-height: 1.5em;
   }
   
   .subtitle{
-    font-size: 150%;
-    font-family: 'Mate SC', serif; 
+    font-size: 130%;
+    font-family: 'Poppins', serif;
     /* font: italic monospace; */
     /* font-family: 'Bacasime Antique', serif; */
     /* font-family: 'Bacasime Antique', serif; */
     /* font-family: 'Jacques Francois Shadow', cursive; */
     padding: 0%;
-    font-weight: 600;
-    margin-bottom: 0.25%;
+    font-weight: 400;
+    margin-bottom: -.75%;
     margin-top: 0%;
-    color:  rgb(0,0,128); 
+    color: rgba(4, 65, 104); 
     width: 100%;
     
   }
@@ -347,18 +360,33 @@ padding: 0%;
   } */
   
   .subsubtitle{
-    font-size: 150%;
+    font-size: 110%;
     /* font-family: "Muli"; */
     /* font-family: 'Bacasime Antique', serif; */
     /* font-family: 'Bacasime Antique', serif; */
-    font-family: 'Mate SC', serif;
-    padding: .25%;
+    font-family: 'Quicksand', serif; 
+    padding: 1%;
     font-weight: 600; 
-    margin-top: 0.25%;
-    margin-bottom: 0%;
-    color: rgb(15, 108, 185);
+    margin-top: 0%;
+    margin-bottom: -0.75%;
+    color:  rgb(0, 0, 0); 
     width: 100%;
   }
+
+  .subsubsubtitle{
+    font-size: 100%;
+    /* font-family: "Muli"; */
+    /* font-family: 'Bacasime Antique', serif; */
+    /* font-family: 'Bacasime Antique', serif; */
+    font-family: 'Quicksand', serif; 
+    padding: 1%;
+    font-weight: 400; 
+    margin-top: 0%;
+    margin-bottom: -0.75%;
+    color:  rgb(0, 0, 0); 
+    width: 100%;
+  }
+  
   
 
 .subtitle a{
@@ -377,14 +405,7 @@ padding: 0%;
 }
 
 
-.subsubtitle{
-  font-size: 100%;
-  padding: 0px;
-  font-family: "Muli";
-  margin-bottom: 1px;
-  color: rgb(138, 50, 50);
-  /*color: rgba(0, 136, 255, 0.682);*/
-}
+
 
 
 
@@ -405,18 +426,15 @@ padding: 0%;
   text-decoration: none;
 }
 
-
-
 .contenedor_titulo{
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   align-items: center;
   align-content: space-between;
 }
 
-}
 .secciones-main ul{
   margin: 0;
   padding: 10px;
