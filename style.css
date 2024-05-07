@@ -199,12 +199,12 @@ html, body{
 }
 
 .footer{  
-  padding: 20px; /* Espaciado interno del footer */
+  /*padding: 20px;  Espaciado interno del footer */
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed; /* Fija el footer en la parte inferior de la pantalla */
-  bottom: 0; 
+  bottom: 2.5%; 
   left: 0%;/* Coloca el footer al final de la pantalla */
   width: 100%; /* Ajusta el ancho del footer al ancho completo de la pantalla */
 }
