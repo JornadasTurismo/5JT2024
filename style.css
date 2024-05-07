@@ -7,8 +7,11 @@
 
 html, body{
   margin: 0;
-  padding: 50px;
+  /* padding: 50px; */
   font-family: "Quicksand";
+  /* margin: 0; */
+  padding: 5px;
+  height: 100%; /* Asegura que el cuerpo ocupe toda la altura de la pantalla */
 }
 
 .fondo-body{
@@ -74,7 +77,7 @@ html, body{
   width: 100%;
   height: auto;
   margin-bottom: 0%;
-  margin-top: -6%;
+  margin-top: 0%;
   }
 
 .flexbox{
@@ -185,7 +188,8 @@ html, body{
   bottom: 0%;
   left: 0%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  /* flex-direction: column; */
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1%;
@@ -194,36 +198,28 @@ html, body{
   align-content: center;
 }
 
-.abajo_cartel{
-  position: fixed;
-  width: 120%;
-  bottom: 0%;
-  left: 0%;
+.footer{  
+  padding: 20px; /* Espaciado interno del footer */
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: left;
-  margin-top: 1%;
-  margin-bottom: 0%;
-  padding:1.5%;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Fija el footer en la parte inferior de la pantalla */
+  bottom: 0; 
+  left: 0%;/* Coloca el footer al final de la pantalla */
+  width: 100%; /* Ajusta el ancho del footer al ancho completo de la pantalla */
+}
+ 
+.footer-item {
+  text-align: center;
 }
 
-.abajo_cartel2{
-  position: fixed;
-  width: 120%;
-  bottom: 0%;
-  left: 73%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: right;
-  margin-top: 1%;
-  margin-bottom: 0%;
-  padding:1.5%;
-  align-content: right;
+.center {
+  margin: 0 auto; /* Centra el elemento */
 }
-/* for top menu */
+
+.footer-item img {
+  max-width: 65%; /* Ancho máximo de las imágenes */
+}
 
 
 .img_programa1{
@@ -248,10 +244,6 @@ html, body{
   width: 100%;
 }
 
-
-
-
- 
 .small-nav{
     padding:10px;
   }
@@ -359,17 +351,9 @@ padding: 0%;
     margin: auto;
     height: 12%;
     }
-    
-  .footer{
-    position:  fixed;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-content: flex-end;
+   
 
-    bottom: 0;
-    width: 50%;
-    
-  }
+
   .title-{
     font-size: 250%;
     font-weight: 600; 
