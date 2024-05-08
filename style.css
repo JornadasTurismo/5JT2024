@@ -95,7 +95,7 @@ html, body{
   justify-content: center;
   /* padding: 0%; */
   width: 100%;
-  font-size: 90%;
+  /* font-size: 90%; */
   }
   
   .top-nav ul {
@@ -114,7 +114,7 @@ html, body{
   
   .top-nav a{
     padding: 0.25%;
-    font-size: 100%;
+    /* font-size: 100%; */
     font-weight: 800;
     text-decoration: none;
     color: #000000;
@@ -128,7 +128,7 @@ html, body{
     */
     background-color: #ffa600;
     padding: 0.25%;
-    font-size: 100%;
+    /* font-size: 100%; */
     border-radius: 5px;
     font-family: "Muli";
     color:  rgba(255, 255, 255, 0.867);
