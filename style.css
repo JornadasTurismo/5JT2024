@@ -186,19 +186,6 @@ html, body{
   width: 100%; /* Ajusta el ancho del footer al ancho completo de la pantalla */
 }
  
-.footer-item {
-  text-align: center;
-}
-
-.center {
-  margin: 0 auto; /* Centra el elemento */
-}
-
-.footer-item img {
-  max-width: 65%; /* Ancho máximo de las imágenes */
-}
-
-
 .img_programa1{
   display: flex;
   flex-direction: column;
