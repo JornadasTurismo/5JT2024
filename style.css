@@ -75,6 +75,18 @@ html, body{
     /* margin-left: -30%; */
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between;  */
+    width: 100%;
+  }
+
+  .horizontal{
+    /* margin-left: -30%; */
+    display: flex;
+    align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
@@ -213,6 +225,7 @@ html, body{
 .top-nav{
 text-align:center; 
 padding: 0%;
+width: 100%;
 }
 
 .top-nav ul {
