@@ -29,10 +29,10 @@ html, body{
   border-style: solid; /* Establece el estilo de la línea como sólido */
   /* border-width: 2.55px; Establece el ancho de la línea en 1 píxel */
   color:  rgb(26,157,217); 
-  width: 90%; /* Ancho de la línea */
+  width: 80%; /* Ancho de la línea */
   height: 0; /* Altura de la línea */
   border-radius: 5px; /* Redondea las esquinas de la línea */
-  border: 0.25px solid  rgb(26,157,217,1);
+  border: 0px solid  rgb(26,157,217,1);
   margin: auto;
   margin-top: 1%;
   box-shadow: 2px 2px 15px 2px   rgb(26,157,217);
@@ -41,10 +41,10 @@ html, body{
   border-style: solid; /* Establece el estilo de la línea como sólido */
   border-width: 2.55px; /* Establece el ancho de la línea en 1 píxel */
   color:  rgb(26,157,217); 
-  width: 90%; /* Ancho de la línea */
+  width: 80%; /* Ancho de la línea */
   height: 0; /* Altura de la línea */
   border-radius: 5px; /* Redondea las esquinas de la línea */
-  border: 0.25px solid  rgb(26,157,217,1);
+  border: 0px solid  rgb(26,157,217,1);
   margin: auto;
   margin-top: 0%;
   box-shadow: 2px 2px 15px 2px  rgb(26,157,217);
@@ -72,7 +72,9 @@ html, body{
 }
 
 .main-header{
-    /* margin-left: -30%; */
+    position: fixed;
+    top: 0%;
+    left: 1%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -84,7 +86,7 @@ html, body{
   }
 
   .horizontal{
-    /* margin-left: -30%; */
+    
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -92,8 +94,88 @@ html, body{
     align-content: flex-start;
     /* justify-content: space-evenly; */
     /* justify-content: space-between;  */
-    width: 100%;
+    width: 98%;
+    padding: .15%;
   }
+
+
+.top-nav{
+  text-align:center; 
+  justify-content: center;
+  padding: 0%;
+  width: 100%;
+  font-size: 55%;
+  }
+  
+  .top-nav ul {
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+    padding: .3%;
+    border-radius: 10px;
+  }
+  
+  .top-nav li{
+    display: inline;
+    color: #ffffff;
+    padding: 2%;
+  
+  }
+  
+  .top-nav a{
+    padding: 0.25%;
+    font-size: 100%;
+    font-weight: 800;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Muli";
+    color:  rgb(0, 0, 0);
+  }
+  
+  .top-nav a:hover{
+    transition: background-color 0.25s ease;
+    /*transition: font-size 0.5s ease;
+    */
+    background-color: #ffa600;
+    padding: 0.25%;
+    font-size: 100%;
+    border-radius: 5px;
+    font-family: "Muli";
+    color:  rgba(255, 255, 255, 0.867);
+  }
+  
+  .small-nav button{
+      padding: 15px;
+      font-size: 15px;
+      border-radius: 10px;
+      text-decoration: none;
+      background-color: rgb(250, 239, 210);
+  }
+  
+  
+  .small-nav button:hover{
+      background-color:#aef1c8;
+      border-radius:  10px  solid #aef1c8;
+    }
+  
+    
+  
+    .imagen-nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      margin-bottom: 0%;
+      margin-top: 1%;
+      width: auto;
+      height: 2.5%;
+      top:0%;
+      bottom: 0%;
+      left: 0%;
+      flex-direction: row;
+      justify-content: space-between;
+      
+    }
+  
   
 .flexbox{
   display: flex;
@@ -220,83 +302,6 @@ html, body{
 
 .small-nav{
     padding:10px;
-  }
-
-.top-nav{
-text-align:center; 
-justify-content: center;
-padding: 0%;
-width: 100%;
-font-size: 90%;
-}
-
-.top-nav ul {
-  margin-top: 0%;
-  margin-bottom: 0.5%;
-  padding: .3%;
-  border-radius: 10px;
-}
-
-.top-nav li{
-  display: inline;
-  color: #ffffff;
-  padding: 2%;
-
-}
-
-.top-nav a{
-  padding: 0.25%;
-  font-size: 100%;
-  font-weight: 800;
-  text-decoration: none;
-  color: #000000;
-  font-family: "Muli";
-  color:  rgb(0, 0, 0);
-}
-
-.top-nav a:hover{
-  transition: background-color 0.25s ease;
-  /*transition: font-size 0.5s ease;
-  */
-  background-color: #ffa600;
-  padding: 0.25%;
-  font-size: 100%;
-  border-radius: 5px;
-  font-family: "Muli";
-  color:  rgba(255, 255, 255, 0.867);
-}
-
-.small-nav button{
-    padding: 15px;
-    font-size: 15px;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color: rgb(250, 239, 210);
-}
-
-
-.small-nav button:hover{
-    background-color:#aef1c8;
-    border-radius:  10px  solid #aef1c8;
-  }
-
-  
-
-  .imagen-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 0%;
-    margin-top: 1%;
-    width: auto;
-    height: 2.5%;
-    top:0%;
-    bottom: 0%;
-    left: 0%;
-    flex-direction: row;
-    justify-content: space-between;
-    
   }
 
 
