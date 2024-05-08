@@ -89,6 +89,16 @@ html, body{
     padding: .15%;
   }
 
+  .main-footer{  
+    position: fixed; /* Fija el footer en la parte inferior de la pantalla */
+    bottom: 3%; 
+    display: flex;
+    /* left: 0%;  */
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 98%; /* Ajusta el ancho del footer al ancho completo de la pantalla */
+  }
 
 .top-nav{
   text-align:center; 
@@ -260,14 +270,7 @@ html, body{
   align-content: center;
 }
 
-.footer{  
-  position: fixed; /* Fija el footer en la parte inferior de la pantalla */
-  bottom: 3%; 
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  width: 100%; /* Ajusta el ancho del footer al ancho completo de la pantalla */
-}
+
  
 .img_programa1{
   display: flex;
