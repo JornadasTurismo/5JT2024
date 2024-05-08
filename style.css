@@ -29,7 +29,7 @@ html, body{
   border-style: solid; /* Establece el estilo de la línea como sólido */
   /* border-width: 2.55px; Establece el ancho de la línea en 1 píxel */
   color:  rgb(26,157,217); 
-  width: 100%; /* Ancho de la línea */
+  width: 90%; /* Ancho de la línea */
   height: 0; /* Altura de la línea */
   border-radius: 5px; /* Redondea las esquinas de la línea */
   border: 0.25px solid  rgb(26,157,217,1);
@@ -41,7 +41,7 @@ html, body{
   border-style: solid; /* Establece el estilo de la línea como sólido */
   border-width: 2.55px; /* Establece el ancho de la línea en 1 píxel */
   color:  rgb(26,157,217); 
-  width: 100%; /* Ancho de la línea */
+  width: 90%; /* Ancho de la línea */
   height: 0; /* Altura de la línea */
   border-radius: 5px; /* Redondea las esquinas de la línea */
   border: 0.25px solid  rgb(26,157,217,1);
