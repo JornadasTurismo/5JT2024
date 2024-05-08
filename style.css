@@ -177,11 +177,10 @@ html, body{
 
 .footer{  
   position: fixed; /* Fija el footer en la parte inferior de la pantalla */
+  bottom: 3%; 
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  bottom: 3%; 
-  left: 0%;/* Coloca el footer al final de la pantalla */
   width: 100%; /* Ajusta el ancho del footer al ancho completo de la pantalla */
 }
  
@@ -232,7 +231,7 @@ padding: 0%;
 
 .top-nav a{
   padding: 0.25%;
-  font-size: 123%;
+  font-size: 100%;
   font-weight: 800;
   text-decoration: none;
   color: #000000;
@@ -246,7 +245,7 @@ padding: 0%;
   */
   background-color: #ffa600;
   padding: 0.25%;
-  font-size: 125%;
+  font-size: 100%;
   border-radius: 5px;
   font-family: "Muli";
   color:  rgba(255, 255, 255, 0.867);
