@@ -270,7 +270,16 @@ html, body{
   align-content: center;
 }
 
-
+ 
+.cartel{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh; /* Establece la altura del cuerpo al 100% de la altura del viewport */
+    margin-top: 5%; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
  
 .img_programa1{
   display: flex;
@@ -303,7 +312,7 @@ html, body{
     position: fixed;
     display: grid;
     grid-template-columns: repeat(1,1fr); /* Cambia el número para ajustar el número de columnas */
-    gap: 0; /* Espacio entre las imágenes */
+    gap: -2; /* Espacio entre las imágenes */
     top: 0;
     bottom: 0;
     right: 0;
