@@ -91,7 +91,7 @@ html, body{
 
   .main-footer{  
     position: fixed; /* Fija el footer en la parte inferior de la pantalla */
-    bottom: 3%; 
+    bottom: 2%; 
     display: flex;
     /* left: 0%;  */
     /* flex-direction: row; */
