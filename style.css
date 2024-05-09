@@ -96,7 +96,7 @@ html, body{
     display: flex;
     /* left: 0%;  */
     /* flex-direction: row; */
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
     width: 98%; /* Ajusta el ancho del footer al ancho completo de la pantalla */
   }
