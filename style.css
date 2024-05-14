@@ -1012,10 +1012,10 @@ ol li::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.8s ease;
-  -webkit-transition: transform 0.8s ease;
-  -moz-transition: transform 0.8s ease;
-  -ms-transition: transform 0.8s ease;
-  -o-transition: transform 0.8s ease;
+  transition: transform 0.1s ease;
+  -webkit-transition: transform 0.1s ease;
+  -moz-transition: transform 0.1s ease;
+  -ms-transition: transform 0.1s ease;
+  -o-transition: transform 0.1s ease;
 }
 
