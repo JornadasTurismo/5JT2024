@@ -1000,3 +1000,22 @@ ol li::before {
   font-weight: bold;
   font-size: 20px;
 }*/
+
+.banner {
+  width: 80%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+
