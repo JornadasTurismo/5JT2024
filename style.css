@@ -1002,16 +1002,18 @@ ol li::before {
 }*/
 
 .banner {
-  width: 80%;
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  width: 90%;
 }
 
 .slider {
   display: flex;
-  justify-content: center;
+  
   align-items: center;
+  justify-content: center;
+
   transition: transform 0.1s ease;
   -webkit-transition: transform 0.1s ease;
   -moz-transition: transform 0.1s ease;
