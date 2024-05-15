@@ -1005,19 +1005,19 @@ ol li::before {
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  align-content: center;
+  margin-top: 5%;
   width: 100%;
 }
 
 .slider {
   display: flex;
-  
   align-items: center;
   justify-content: center;
-
-  transition: transform 0.1s ease;
-  -webkit-transition: transform 0.1s ease;
-  -moz-transition: transform 0.1s ease;
-  -ms-transition: transform 0.1s ease;
-  -o-transition: transform 0.1s ease;
+  transition: transform 0.1s ease-out;
+  -webkit-transition: transform 0.1s ease-out;
+  -moz-transition: transform 0.1s ease-out;
+  -ms-transition: transform 0.1s ease-out;
+  -o-transition: transform 0.1s ease-out;
 }
 
