@@ -1008,6 +1008,8 @@ ol li::before {
   align-content: center;
   margin-top: 5%;
   width: 100%;
+   position: relative;
+  
 }
 
 .slider {
@@ -1019,5 +1021,27 @@ ol li::before {
   -moz-transition: transform 0.1s ease-out;
   -ms-transition: transform 0.1s ease-out;
   -o-transition: transform 0.1s ease-out;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo transparente */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    z-index: 100;
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
 }
 

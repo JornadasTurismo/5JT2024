@@ -25,6 +25,42 @@
           setInterval(showNextImage, 8000); // Cambia la imagen cada 3 segundos
       }
   </script>
+
+  <script>
+    function prevSlide() {
+      const slider = document.querySelector('.slider');
+      const images = slider.querySelectorAll('img');
+      let count = 0;
+  
+      for (let i = 0; i < images.length; i++) {
+          if (images[i].style.display === 'block') {
+              images[i].style.display = 'none';
+              count = i;
+              break;
+          }
+      }
+  
+      count = (count - 1 + images.length) % images.length;
+      images[count].style.display = 'block';
+  }
+  
+  function nextSlide() {
+      const slider = document.querySelector('.slider');
+      const images = slider.querySelectorAll('img');
+      let count = 0;
+  
+      for (let i = 0; i < images.length; i++) {
+          if (images[i].style.display === 'block') {
+              images[i].style.display = 'none';
+              count = i;
+              break;
+          }
+      }
+  
+      count = (count + 1) % images.length;
+      images[count].style.display = 'block';
+  }
+  </script>
     <!-- This part is to load main.js -->
     <script type="text/javascript" src="main.js"></script>
 
@@ -82,6 +118,8 @@
               
               <!-- <img src="./Imagenes/Programa_VJT_20.jpeg" alt="" width="80%" height="auto" style="display: block;">> -->
           </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
       </div>
     </center>
 
